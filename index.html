@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>adeib arief portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      body {
+        background-color: rgb(7, 1, 30);
+        color: white;
+        font-family: "Poppins", sans-serif;
+      }
+      nav {
+        justify-content: space-around;
+        display: flex;
+        align-items: center;
+        height: 80px;
+        background-color: rgb(19, 19, 70);
+      }
+      nav ul {
+        justify-content: center;
+        display: flex;
+      }
+      nav ul li {
+        list-style: none;
+        margin: 0 23px;
+      }
+      .left {
+        font-size: 2rem;
+      }
+      .firstsection {
+        display: flex;
+        justify-content: space-around;
+        margin: 23px 0;
+        flex-wrap: wrap;
+      }
+      .firstsection > div {
+        /* display: flex; */
+        /* justify-content: center; */
+        /* align-items: center; */
+        width: 38%;
+        margin: 130px 0;
+      }
+      .leftsection {
+        /* background-color: red; */
+        font-size: 3rem;
+        margin: 70px;
+        align-items: center;
+        /* text-align: center; */
+        /* width: 100px; */
+      }
+      .rightsection {
+        /* background-color: red; */
+        width: 80%;
+        margin: 50px 0;
+      }
+      .purple {
+        color: rgb(0, 179, 255);
+      }
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+      }
+      nav ul li a:hover {
+        text-decoration: none;
+        color: rgb(113, 41, 190);
+        font-size: 1.04rem;
+      }
+      #element {
+        color: rgb(0, 179, 255);
+      }
+      .secondsection {
+        max-width: 80vw;
+        margin: auto;
+        height: 81vh;
+      }
+      main hr {
+        border: 0;
+        background-color: rgb(19, 19, 70);
+        height: 1.2px;
+        margin: 40px 84px;
+      }
+      .textgrey {
+        color: grey;
+      }
+      /* .secondsection{ */
+      /* font-size: 1.9rem; */
+      /* } */
+      .secondsection .box {
+        background-color: wheat;
+        width: 80vm;
+        height: 2px;
+        margin: 56px 0;
+        display: flex;
+      }
+      .secondsection .vertical {
+        height: 93px;
+        width: 1px;
+        background-color: white;
+        margin: 0 140px;
+      }
+      .img-top {
+        width: 23px;
+        position: relative;
+        top: -32px;
+        left: -9px;
+      }
+      .space {
+        width: 30px;
+        display: flex;
+      }
+      .vertical-title {
+        position: relative;
+        top: 75px;
+        width: 150px;
+      }
+      .vertical-desc {
+        position: relative;
+        top: 79px;
+        color: gray;
+        width: 150px;
+        width: 150px;
+        font-size: 10px;
+      }
+      .thirdsection {
+        max-width: 80vw;
+        margin: auto;
+        height: 80vh;
+      }
+      .thirdsection .p {
+        margin: auto;
+        padding: 0;
+      }
+      .skills {
+        width: 80%;
+        position: relative;
+        left: -22px;
+      }
+      footer{
+        background-color: rgb(16, 11, 41);
+        /* height: 233px; */
+      }
+      .footer{
+        display: flex;
+        padding: 23px 122px;
+        justify-content: space-evenly;
+
+      }
+      .footer .ul{
+        list-style: none;
+      }
+      .footer > div{
+        width: 123px;
+      }
+      footer .footer-rights{
+        text-align: center;
+        color: gray;
+        padding: 12px 0;
+      }
+      .leftsection .btn{
+        padding: 12px;
+        background-color: rgb(7, 10, 60);
+        color: white;
+        border: 2px solid white;
+        border-radius: 6px;
+        font-size: 20px;
+        cursor: pointer;
+      }
+      .leftsection .buttons{
+        padding: 50px 0;
+      }
+      /* .footer-second{
+        justify-content: space-evenly;
+      } */
+      @media screen and (max-width: 1200px) {
+        /* body{
+          background-color: red;
+        } */
+        .firstsection{
+          align-items: center;
+          flex-direction: column-reverse;
+        }
+        .box{
+          flex-direction: column;
+        }
+        .secondsection .vertical{
+          height: unset;
+        }
+      }
+    </style>
+  </head>
+  <!-- <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script> -->
+  <body>
+    <header>
+      <nav>
+        <div class="left">Adeib's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="#firstsection1">Home</a></li>
+            <li><a href="#aboutme">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="https://www.linkedin.com/in/shaik-mohd-adeib-arief-121240232/">connect</a></li>
+            <!-- <li><a href="/">Resume</a></li> -->
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section id="firstsection1" class="firstsection">
+        <div class="leftsection">
+          Hi my name is <span class="purple">Adeib</span>
+          <div>and i am a dedicated</div>
+          <!-- <div>Machine Learning Engineer</div> -->
+          <span id="element"></span>
+          <div class="buttons">
+            <button class="btn"><a href="Shaik MohdAdeib Arief_InternshalaResume (1).pdf" download="resume.pdf">Download Resume</a></button>
+            <button class="btn"><a href="https://github.com/AdeibArief">View Github</a></button>
+          </div>
+        </div>
+        <div class="rightsection">
+          <img src="bg.png" alt="" />
+        </div>
+      </section>
+      <hr />
+      <section class="thirdsection">
+        <!-- <span class="textgrey">What I have done so far</span> -->
+        <h1 id="aboutme">About me</h1>
+        <div class="space"></div>
+        <span class="textgrey"></span>
+        <p>
+          I am Shaik Mohd Adeib Arief, a Machine Learning Engineer with a strong
+          passion for problem-solving and a deep love for technology.
+        </p>
+
+        <p>
+          In my professional journey, I specialize in machine learning, focusing
+          on creating intelligent models that enable machines to learn from data
+          and make informed decisions.
+        </p>
+
+        <!-- <p>
+          As a freelancer, I have had the privilege of working on a wide range of projects spanning various industries. This experience has not only honed my skills but also made me adaptable and committed to delivering exceptional solutions.
+      </p> -->
+
+        <p>
+          Problem-solving is at the core of my work, and I thrive on dissecting
+          complex challenges, employing data-driven strategies to develop
+          innovative solutions. Whether it's optimizing processes, predicting
+          outcomes, or enhancing decision-making, I embrace every opportunity to
+          tackle intricate problems.
+        </p>
+
+        <p>
+          My passion for technology is a driving force in my career. I stay
+          updated with the latest technological advancements and seek
+          opportunities to leverage emerging tools and techniques to push the
+          boundaries of what's possible in the field of machine learning and
+          beyond.
+        </p>
+
+        <p>
+          When you choose to collaborate with me, you gain access to a
+          professional who is dedicated to excellence, enthusiastic about
+          problem-solving, and committed to staying at the forefront of
+          technological innovation. I approach each project with enthusiasm,
+          aiming to not only meet but exceed expectations.
+        </p>
+
+        <p>
+          If you share my enthusiasm for technology and problem-solving, please
+          feel free to reach out. Together, we can explore exciting
+          opportunities to apply machine learning and technology to address
+          real-world challenges.
+        </p>
+
+        <p>
+          Thank you for taking the time to learn more about me, and I look
+          forward to the possibility of working alongside you to solve problems
+          and advance the frontiers of technology.
+        </p>
+        <!-- <div class="box">
+          <div class="vertical">
+            <img src="ml.png" alt="" class="img-top">
+          </div>
+          <div class="vertical"></div>
+          <div class="vertical"></div>
+          <div class="vertical"></div>
+        </div> -->
+      </section>
+      <section class="secondsection">
+        <span class="textgrey">What I have done so far</span>
+        <h1 id="projects">My Projects</h1>
+
+        <div class="box">
+          <div class="vertical">
+            <img src="ml.png" alt="" class="img-top" />
+            <div class="vertical-title">Fake News Detection</div>
+            <div class="vertical-desc">
+              I curated a news dataset, preprocessed it, and trained machine
+              learning models to identify fake news patterns. After testing, I
+              deployed the model in a user-friendly app for real-time
+              verification, improving my ML skills and combating misinformation.
+              i also used streamlit to create a website
+            </div>
+          </div>
+          <div class="vertical">
+            <img src="ml.png" alt="" class="img-top" />
+            <div class="vertical-title">Cricket predictor</div>
+            <div class="vertical-desc">
+              I created a cricket prediction system using machine learning,
+              leveraging historical match data, player statistics, and real-time
+              inputs. The system uses regression and classification models to
+              make match outcome predictions and player performance assessments.
+              and to visualize i used streamlit to create a website so that it
+              can be used easily
+            </div>
+          </div>
+          <div class="vertical">
+            <img src="ml.png" alt="" class="img-top" />
+            <div class="vertical-title">Laptop price predictor</div>
+            <div class="vertical-desc">
+              By using the available dataset we can give a conclusive price
+              based on the customers requirement this didnt require that much
+              learning it basically involved in determining which model is the
+              best for prediction
+            </div>
+          </div>
+          <div class="vertical">
+            <img src="ml.png" alt="" class="img-top" />
+            <div class="vertical-title">Email spam Detection</div>
+            <div class="vertical-desc">
+              This required a lot of knowledge regarding natural language
+              processing as this was challenging to determining the emails
+              Whether they are classified as spam or not
+            </div>
+          </div>
+          <!-- <div class="vertical">
+            <img src="ml.png" alt="" class="img-top" />
+            <div class="vertical-title">Fake News Detection</div>
+            <div class="vertical-desc">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius
+              ducimus rerum reprehenderit odit praesentium? Magnam possimus
+              asperiores culpa accusamus. Nam nisi cum veniam quia rerum nulla
+              voluptatem vero voluptatibus ipsum.
+            </div>
+          </div>
+          <div class="vertical">
+            <img src="ml.png" alt="" class="img-top" />
+            <div class="vertical-title">Fake News Detection</div>
+            <div class="vertical-desc">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius
+              ducimus rerum reprehenderit odit praesentium? Magnam possimus
+              asperiores culpa accusamus. Nam nisi cum veniam quia rerum nulla
+              voluptatem vero voluptatibus ipsum.
+            </div>
+          </div> -->
+          <!-- <div class="vertical"></div>
+          <div class="vertical"></div>
+          <div class="vertical"></div> -->
+        </div>
+      </section>
+      <section class="secondsection">
+        <!-- <span class="textgrey">What I have done so far</span> -->
+        <h1 id="skills">Skills</h1>
+
+        <div class="box">
+          <div class="vertical">
+            <img src="ml.png" alt="" class="img-top" />
+            <div class="vertical-title">HTML</div>
+            <div class="vertical-desc">
+              <img class="skills" src="pngwing.com.png" alt="" />
+            </div>
+          </div>
+          <div class="vertical">
+            <img src="ml.png" alt="" class="img-top" />
+            <div class="vertical-title">CSS</div>
+            <div class="vertical-desc">
+              <img class="skills" src="css.png" alt="">
+            </div>
+          </div>
+          <div class="vertical">
+            <img src="ml.png" alt="" class="img-top" />
+            <div class="vertical-title">Python</div>
+            <div class="vertical-desc">
+              <img src="pyp.png" alt="" class="skills">
+            </div>
+          </div>
+          <div class="vertical">
+            <img src="ml.png" alt="" class="img-top" />
+            <div class="vertical-title">Machine Learning</div>
+            <div class="vertical-desc">
+              <img src="ml2.png" alt="" class="skills">  
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer">
+        <div class="footer-first">
+          Adeib's portfolio
+        </div>
+        <div class="footer-second">
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Skills</li>
+            <li>Connect</li>
+
+          </ul>
+        </div>
+        <div class="footer-third">
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Skills</li>
+            <li>Connect</li>
+
+          </ul>
+        </div>
+        <div class="footer-fourth">
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Skills</li>
+            <li>Connect</li>
+
+          </ul>
+        </div>
+      </div>
+      <div class="footer-rights">
+       Copyrights &#169 adeibsporfolio.com | All rights reserved
+      </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Machine Learning Engineer", "Data analyst", "Freelancer"],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
